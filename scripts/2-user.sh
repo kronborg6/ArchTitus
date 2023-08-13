@@ -23,7 +23,7 @@ source $HOME/ArchTitus/configs/setup.conf
   cd ~
   mkdir "/home/$USERNAME/.cache"
   touch "/home/$USERNAME/.cache/zshhistory"
-  git clone "https://github.com/kronborg6/.zshrc"
+  git clone "https://github.com/ChrisTitusTech/zsh"
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
   ln -s "~/zsh/.zshrc" ~/.zshrc
 
